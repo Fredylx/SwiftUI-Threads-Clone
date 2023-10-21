@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD810C062ADB854C0075A212 /* SwiftUI_Threads_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C052ADB854C0075A212 /* SwiftUI_Threads_CloneApp.swift */; };
+		FD810C082ADB854C0075A212 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C072ADB854C0075A212 /* ContentView.swift */; };
+		FD810C0A2ADB854E0075A212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD810C092ADB854E0075A212 /* Assets.xcassets */; };
+		FD810C0D2ADB854E0075A212 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD810C0C2ADB854E0075A212 /* Preview Assets.xcassets */; };
+		FD810C172ADB854E0075A212 /* SwiftUI_Threads_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C162ADB854E0075A212 /* SwiftUI_Threads_CloneTests.swift */; };
+		FD810C212ADB854E0075A212 /* SwiftUI_Threads_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C202ADB854E0075A212 /* SwiftUI_Threads_CloneUITests.swift */; };
+		FD810C232ADB854E0075A212 /* SwiftUI_Threads_CloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C222ADB854E0075A212 /* SwiftUI_Threads_CloneUITestsLaunchTests.swift */; };
+		FD810C392ADB86580075A212 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C382ADB86580075A212 /* LoginView.swift */; };
+		FD810C3B2ADB8C610075A212 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C3A2ADB8C610075A212 /* RegistrationView.swift */; };
+		FD810C3E2ADB92A40075A212 /* ThreadTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C3D2ADB92A40075A212 /* ThreadTextFieldModifier.swift */; };
+		FD810C402ADB939E0075A212 /* ButtonFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C3F2ADB939E0075A212 /* ButtonFieldModifier.swift */; };
+		FD810C432ADB9FE40075A212 /* ThreadTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C422ADB9FE40075A212 /* ThreadTabView.swift */; };
+		FD810C472ADBA4510075A212 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C462ADBA4510075A212 /* FeedView.swift */; };
+		FD810C4B2ADBA5FC0075A212 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C4A2ADBA5FC0075A212 /* ExploreView.swift */; };
+		FD810C4F2ADBA6660075A212 /* CreateThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C4E2ADBA6660075A212 /* CreateThreadView.swift */; };
+		FD810C532ADBA6990075A212 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C522ADBA6990075A212 /* ActivityView.swift */; };
+		FD810C572ADBA7060075A212 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C562ADBA7060075A212 /* ProfileView.swift */; };
+		FD810C5A2ADBAA250075A212 /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C592ADBAA250075A212 /* ThreadCell.swift */; };
+		FD810C5D2ADBD2580075A212 /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C5C2ADBD2580075A212 /* CircularProfileImageView.swift */; };
+		FD810C5F2ADBD3680075A212 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C5E2ADBD3680075A212 /* UserCell.swift */; };
+		FD810C622ADCDCA80075A212 /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD810C612ADCDCA80075A212 /* ProfileThreadFilter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD810C132ADB854E0075A212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD810BFA2ADB854C0075A212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD810C012ADB854C0075A212;
+			remoteInfo = "SwiftUI Threads Clone";
+		};
+		FD810C1D2ADB854E0075A212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD810BFA2ADB854C0075A212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD810C012ADB854C0075A212;
+			remoteInfo = "SwiftUI Threads Clone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD810C022ADB854C0075A212 /* SwiftUI Threads Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Threads Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD810C052ADB854C0075A212 /* SwiftUI_Threads_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Threads_CloneApp.swift; sourceTree = "<group>"; };
+		FD810C072ADB854C0075A212 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD810C092ADB854E0075A212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD810C0C2ADB854E0075A212 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD810C122ADB854E0075A212 /* SwiftUI Threads CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Threads CloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD810C162ADB854E0075A212 /* SwiftUI_Threads_CloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Threads_CloneTests.swift; sourceTree = "<group>"; };
+		FD810C1C2ADB854E0075A212 /* SwiftUI Threads CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Threads CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD810C202ADB854E0075A212 /* SwiftUI_Threads_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Threads_CloneUITests.swift; sourceTree = "<group>"; };
+		FD810C222ADB854E0075A212 /* SwiftUI_Threads_CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Threads_CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD810C382ADB86580075A212 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FD810C3A2ADB8C610075A212 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		FD810C3D2ADB92A40075A212 /* ThreadTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadTextFieldModifier.swift; sourceTree = "<group>"; };
+		FD810C3F2ADB939E0075A212 /* ButtonFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFieldModifier.swift; sourceTree = "<group>"; };
+		FD810C422ADB9FE40075A212 /* ThreadTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadTabView.swift; sourceTree = "<group>"; };
+		FD810C462ADBA4510075A212 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		FD810C4A2ADBA5FC0075A212 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		FD810C4E2ADBA6660075A212 /* CreateThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadView.swift; sourceTree = "<group>"; };
+		FD810C522ADBA6990075A212 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		FD810C562ADBA7060075A212 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FD810C592ADBAA250075A212 /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
+		FD810C5C2ADBD2580075A212 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
+		FD810C5E2ADBD3680075A212 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		FD810C612ADCDCA80075A212 /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD810BFF2ADB854C0075A212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD810C0F2ADB854E0075A212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD810C192ADB854E0075A212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD810BF92ADB854C0075A212 = {
+			isa = PBXGroup;
+			children = (
+				FD810C042ADB854C0075A212 /* SwiftUI Threads Clone */,
+				FD810C152ADB854E0075A212 /* SwiftUI Threads CloneTests */,
+				FD810C1F2ADB854E0075A212 /* SwiftUI Threads CloneUITests */,
+				FD810C032ADB854C0075A212 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD810C032ADB854C0075A212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C022ADB854C0075A212 /* SwiftUI Threads Clone.app */,
+				FD810C122ADB854E0075A212 /* SwiftUI Threads CloneTests.xctest */,
+				FD810C1C2ADB854E0075A212 /* SwiftUI Threads CloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD810C042ADB854C0075A212 /* SwiftUI Threads Clone */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C342ADB85910075A212 /* App */,
+				FD810C332ADB858F0075A212 /* Core */,
+				FD810C322ADB858D0075A212 /* Extensions */,
+				FD810C312ADB858C0075A212 /* Model */,
+				FD810C302ADB858A0075A212 /* Services */,
+				FD810C2F2ADB85880075A212 /* Utils */,
+				FD810C092ADB854E0075A212 /* Assets.xcassets */,
+				FD810C0B2ADB854E0075A212 /* Preview Content */,
+			);
+			path = "SwiftUI Threads Clone";
+			sourceTree = "<group>";
+		};
+		FD810C0B2ADB854E0075A212 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C0C2ADB854E0075A212 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD810C152ADB854E0075A212 /* SwiftUI Threads CloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C162ADB854E0075A212 /* SwiftUI_Threads_CloneTests.swift */,
+			);
+			path = "SwiftUI Threads CloneTests";
+			sourceTree = "<group>";
+		};
+		FD810C1F2ADB854E0075A212 /* SwiftUI Threads CloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C202ADB854E0075A212 /* SwiftUI_Threads_CloneUITests.swift */,
+				FD810C222ADB854E0075A212 /* SwiftUI_Threads_CloneUITestsLaunchTests.swift */,
+			);
+			path = "SwiftUI Threads CloneUITests";
+			sourceTree = "<group>";
+		};
+		FD810C2F2ADB85880075A212 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C3C2ADB927C0075A212 /* ViewModifiers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FD810C302ADB858A0075A212 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FD810C312ADB858C0075A212 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD810C322ADB858D0075A212 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FD810C332ADB858F0075A212 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C502ADBA67A0075A212 /* Activity */,
+				FD810C362ADB86260075A212 /* Authentication */,
+				FD810C5B2ADBD23D0075A212 /* Components */,
+				FD810C482ADBA5500075A212 /* Explore */,
+				FD810C442ADBA4440075A212 /* Feed */,
+				FD810C542ADBA6FB0075A212 /* Profile */,
+				FD810C352ADB86240075A212 /* Root */,
+				FD810C412ADB9FB80075A212 /* TabBar */,
+				FD810C4C2ADBA64E0075A212 /* ThreadCreation */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FD810C342ADB85910075A212 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C052ADB854C0075A212 /* SwiftUI_Threads_CloneApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FD810C352ADB86240075A212 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C072ADB854C0075A212 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		FD810C362ADB86260075A212 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C372ADB86430075A212 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		FD810C372ADB86430075A212 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C382ADB86580075A212 /* LoginView.swift */,
+				FD810C3A2ADB8C610075A212 /* RegistrationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD810C3C2ADB927C0075A212 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C3D2ADB92A40075A212 /* ThreadTextFieldModifier.swift */,
+				FD810C3F2ADB939E0075A212 /* ButtonFieldModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		FD810C412ADB9FB80075A212 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C422ADB9FE40075A212 /* ThreadTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		FD810C442ADBA4440075A212 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C452ADBA4480075A212 /* View */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		FD810C452ADBA4480075A212 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C462ADBA4510075A212 /* FeedView.swift */,
+				FD810C592ADBAA250075A212 /* ThreadCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD810C482ADBA5500075A212 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C492ADBA5ED0075A212 /* View */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		FD810C492ADBA5ED0075A212 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C4A2ADBA5FC0075A212 /* ExploreView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD810C4C2ADBA64E0075A212 /* ThreadCreation */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C4D2ADBA65A0075A212 /* View */,
+			);
+			path = ThreadCreation;
+			sourceTree = "<group>";
+		};
+		FD810C4D2ADBA65A0075A212 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C4E2ADBA6660075A212 /* CreateThreadView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD810C502ADBA67A0075A212 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C512ADBA68E0075A212 /* View */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		FD810C512ADBA68E0075A212 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C522ADBA6990075A212 /* ActivityView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD810C542ADBA6FB0075A212 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C602ADCDC930075A212 /* Model */,
+				FD810C552ADBA6FE0075A212 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FD810C552ADBA6FE0075A212 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C562ADBA7060075A212 /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD810C5B2ADBD23D0075A212 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C5C2ADBD2580075A212 /* CircularProfileImageView.swift */,
+				FD810C5E2ADBD3680075A212 /* UserCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FD810C602ADCDC930075A212 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD810C612ADCDCA80075A212 /* ProfileThreadFilter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD810C012ADB854C0075A212 /* SwiftUI Threads Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD810C262ADB854E0075A212 /* Build configuration list for PBXNativeTarget "SwiftUI Threads Clone" */;
+			buildPhases = (
+				FD810BFE2ADB854C0075A212 /* Sources */,
+				FD810BFF2ADB854C0075A212 /* Frameworks */,
+				FD810C002ADB854C0075A212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI Threads Clone";
+			productName = "SwiftUI Threads Clone";
+			productReference = FD810C022ADB854C0075A212 /* SwiftUI Threads Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD810C112ADB854E0075A212 /* SwiftUI Threads CloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD810C292ADB854E0075A212 /* Build configuration list for PBXNativeTarget "SwiftUI Threads CloneTests" */;
+			buildPhases = (
+				FD810C0E2ADB854E0075A212 /* Sources */,
+				FD810C0F2ADB854E0075A212 /* Frameworks */,
+				FD810C102ADB854E0075A212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD810C142ADB854E0075A212 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI Threads CloneTests";
+			productName = "SwiftUI Threads CloneTests";
+			productReference = FD810C122ADB854E0075A212 /* SwiftUI Threads CloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD810C1B2ADB854E0075A212 /* SwiftUI Threads CloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD810C2C2ADB854E0075A212 /* Build configuration list for PBXNativeTarget "SwiftUI Threads CloneUITests" */;
+			buildPhases = (
+				FD810C182ADB854E0075A212 /* Sources */,
+				FD810C192ADB854E0075A212 /* Frameworks */,
+				FD810C1A2ADB854E0075A212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD810C1E2ADB854E0075A212 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI Threads CloneUITests";
+			productName = "SwiftUI Threads CloneUITests";
+			productReference = FD810C1C2ADB854E0075A212 /* SwiftUI Threads CloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD810BFA2ADB854C0075A212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FD810C012ADB854C0075A212 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FD810C112ADB854E0075A212 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FD810C012ADB854C0075A212;
+					};
+					FD810C1B2ADB854E0075A212 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FD810C012ADB854C0075A212;
+					};
+				};
+			};
+			buildConfigurationList = FD810BFD2ADB854C0075A212 /* Build configuration list for PBXProject "SwiftUI Threads Clone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD810BF92ADB854C0075A212;
+			productRefGroup = FD810C032ADB854C0075A212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD810C012ADB854C0075A212 /* SwiftUI Threads Clone */,
+				FD810C112ADB854E0075A212 /* SwiftUI Threads CloneTests */,
+				FD810C1B2ADB854E0075A212 /* SwiftUI Threads CloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD810C002ADB854C0075A212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD810C0D2ADB854E0075A212 /* Preview Assets.xcassets in Resources */,
+				FD810C0A2ADB854E0075A212 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD810C102ADB854E0075A212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD810C1A2ADB854E0075A212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD810BFE2ADB854C0075A212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD810C532ADBA6990075A212 /* ActivityView.swift in Sources */,
+				FD810C4F2ADBA6660075A212 /* CreateThreadView.swift in Sources */,
+				FD810C472ADBA4510075A212 /* FeedView.swift in Sources */,
+				FD810C622ADCDCA80075A212 /* ProfileThreadFilter.swift in Sources */,
+				FD810C4B2ADBA5FC0075A212 /* ExploreView.swift in Sources */,
+				FD810C572ADBA7060075A212 /* ProfileView.swift in Sources */,
+				FD810C392ADB86580075A212 /* LoginView.swift in Sources */,
+				FD810C082ADB854C0075A212 /* ContentView.swift in Sources */,
+				FD810C5D2ADBD2580075A212 /* CircularProfileImageView.swift in Sources */,
+				FD810C5F2ADBD3680075A212 /* UserCell.swift in Sources */,
+				FD810C062ADB854C0075A212 /* SwiftUI_Threads_CloneApp.swift in Sources */,
+				FD810C5A2ADBAA250075A212 /* ThreadCell.swift in Sources */,
+				FD810C402ADB939E0075A212 /* ButtonFieldModifier.swift in Sources */,
+				FD810C3E2ADB92A40075A212 /* ThreadTextFieldModifier.swift in Sources */,
+				FD810C3B2ADB8C610075A212 /* RegistrationView.swift in Sources */,
+				FD810C432ADB9FE40075A212 /* ThreadTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD810C0E2ADB854E0075A212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD810C172ADB854E0075A212 /* SwiftUI_Threads_CloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD810C182ADB854E0075A212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD810C232ADB854E0075A212 /* SwiftUI_Threads_CloneUITestsLaunchTests.swift in Sources */,
+				FD810C212ADB854E0075A212 /* SwiftUI_Threads_CloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD810C142ADB854E0075A212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD810C012ADB854C0075A212 /* SwiftUI Threads Clone */;
+			targetProxy = FD810C132ADB854E0075A212 /* PBXContainerItemProxy */;
+		};
+		FD810C1E2ADB854E0075A212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD810C012ADB854C0075A212 /* SwiftUI Threads Clone */;
+			targetProxy = FD810C1D2ADB854E0075A212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FD810C242ADB854E0075A212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD810C252ADB854E0075A212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD810C272ADB854E0075A212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Threads Clone/Preview Content\"";
+				DEVELOPMENT_TEAM = 3QF9F89UA9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fredy.lopez.SwiftUI-Threads-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD810C282ADB854E0075A212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Threads Clone/Preview Content\"";
+				DEVELOPMENT_TEAM = 3QF9F89UA9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fredy.lopez.SwiftUI-Threads-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD810C2A2ADB854E0075A212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QF9F89UA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fredy.lopez.SwiftUI-Threads-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI Threads Clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI Threads Clone";
+			};
+			name = Debug;
+		};
+		FD810C2B2ADB854E0075A212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QF9F89UA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fredy.lopez.SwiftUI-Threads-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI Threads Clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI Threads Clone";
+			};
+			name = Release;
+		};
+		FD810C2D2ADB854E0075A212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QF9F89UA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fredy.lopez.SwiftUI-Threads-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI Threads Clone";
+			};
+			name = Debug;
+		};
+		FD810C2E2ADB854E0075A212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3QF9F89UA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fredy.lopez.SwiftUI-Threads-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI Threads Clone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD810BFD2ADB854C0075A212 /* Build configuration list for PBXProject "SwiftUI Threads Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD810C242ADB854E0075A212 /* Debug */,
+				FD810C252ADB854E0075A212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD810C262ADB854E0075A212 /* Build configuration list for PBXNativeTarget "SwiftUI Threads Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD810C272ADB854E0075A212 /* Debug */,
+				FD810C282ADB854E0075A212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD810C292ADB854E0075A212 /* Build configuration list for PBXNativeTarget "SwiftUI Threads CloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD810C2A2ADB854E0075A212 /* Debug */,
+				FD810C2B2ADB854E0075A212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD810C2C2ADB854E0075A212 /* Build configuration list for PBXNativeTarget "SwiftUI Threads CloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD810C2D2ADB854E0075A212 /* Debug */,
+				FD810C2E2ADB854E0075A212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD810BFA2ADB854C0075A212 /* Project object */;
+}
